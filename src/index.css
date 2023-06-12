@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: 400px 450px 400px;
+}
+
 .top-page {
   display: flex;
   justify-content: center;
@@ -13,8 +23,11 @@
   margin-left: 20px;
 }
 
+.headliner {
+  margin-bottom: 10px;
+}
+
 .TopImportantLinks {
-  margin-left: 100px;
   max-width: 500px;
   max-height: 500px;
   margin: 0 auto;
@@ -23,7 +36,6 @@
   border-radius: 25px;
   padding: 8px;
 }
-
 .links-container {
   margin: 10px 10px 10px 10px;
   background-color: aqua;

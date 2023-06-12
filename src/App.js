@@ -1,12 +1,20 @@
 import TopImportantLinks from "./TopImportantLinks";
 import TopPage from "./TopPage";
+import NavBar from "./NavBar";
 
 function App() {
   return (
     <div className="App">
-      <div className="main-logo">
-        <TopPage />
-        <TopImportantLinks />
+      <div className="container1">
+        <div className="navBar">
+          <NavBar />
+        </div>
+        <div className="main-logo">
+          <TopPage />
+        </div>
+        <div className="impLinks">
+          <TopImportantLinks />
+        </div>
       </div>
     </div>
   );
