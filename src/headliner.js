@@ -7,7 +7,10 @@ const Headliner = () => {
         width="450px"
         height="350px"
       />
-      <a href="https://www.breitbart.com/politics/2023/06/12/report-tucker-carlson-served-with-cease-and-desist-letter-by-fox-news/">
+      <a
+        href="https://www.breitbart.com/politics/2023/06/12/report-tucker-carlson-served-with-cease-and-desist-letter-by-fox-news/"
+        target="_blank"
+      >
         Report: Tucker Carlson Served with Cease-and-Desist Letter by Fox News
       </a>
     </div>

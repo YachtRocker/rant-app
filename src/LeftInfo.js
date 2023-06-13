@@ -3,7 +3,7 @@ import links from "./json/LeftLinks";
 const LeftInfo = () => {
   return (
     <>
-      <div className="left-links-container">
+      <div className="links-container">
         <ul className="linksList">
           {links.map((link) => (
             <li>

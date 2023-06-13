@@ -3,7 +3,7 @@ import links from "./json/RightLinks";
 const MiddleInfo = () => {
   return (
     <>
-      <div className="right-links-container">
+      <div className="links-container">
         <ul className="linksList">
           {links.map((link) => (
             <li>

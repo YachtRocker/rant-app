@@ -1,18 +1,19 @@
 const links = [
   {
-    title: "Trump is Awesome",
-    link: "https://rantingly.com/",
+    title:
+      "Trump: I Will Appoint a Real Special Prosecutor to Go After ‘Biden Crime Family",
+    link: "https://www.breitbart.com/2024-election/2023/06/12/trump-i-will-appoint-a-real-special-prosecutor-to-go-after-biden-crime-family/",
     id: 1,
   },
   {
-    title: "Man shot roommate in Kentucky for eating last Hot Pocket",
-    link: "https://www.abc12.com/news/crime/man-shot-roommate-in-kentucky-for-eating-last-hot-pocket-police-say/article_973bf03e-aecc-5515-a135-61ac5cf771f1.html",
+    title: "Gas prices climb as summer demand grows",
+    link: "https://www.breitbart.com/2024-election/2023/06/12/trump-i-will-appoint-a-real-special-prosecutor-to-go-after-biden-crime-family/",
     id: 2,
   },
   {
     title:
-      "Most Corporations Continue Pride Support, Despite Backlash and Boycotts",
-    link: "https://amgreatness.com/2023/06/05/most-corporations-continue-pride-support-despite-backlash-and-boycotts/",
+      "The Beatles will release their 'final' record this YEAR - thanks to AI",
+    link: "https://www.dailymail.co.uk/sciencetech/article-12189103/The-Beatles-release-final-record-YEAR-thanks-AI.html",
     id: 3,
   },
   {
@@ -21,8 +22,9 @@ const links = [
     id: 4,
   },
   {
-    title: "Alleged Biden Briber Is Reportedly a Russian Intel Asset.",
-    link: "https://townhall.com/tipsheet/spencerbrown/2023/06/13/alleged-biden-briber-is-reportedly-a-russian-intel-asset-n2624421",
+    title:
+      "Wheel of Fortune’ host Pat Sajak retiring: ‘It’s been a wonderful ride",
+    link: "https://nypost.com/2023/06/12/wheel-of-fortune-host-pat-sajak-retiring-its-been-a-wonderful-ride/",
     id: 5,
   },
 ];
