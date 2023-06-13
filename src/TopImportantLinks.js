@@ -1,5 +1,5 @@
 import { useState } from "react";
-import JsonList from "./Json-list";
+import JsonList from "./MiddleInfo";
 
 const TopImportantLinks = () => {
   return (

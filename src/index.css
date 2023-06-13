@@ -5,40 +5,65 @@
 
 .container1 {
   display: grid;
-  grid-template-columns: 400px 450px 400px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  column-gap: 20px;
+  row-gap: 20px;
 }
 
-.top-page {
+.main-logo {
   display: flex;
+  justify-content: center;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.navBar {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: grid;
   justify-content: center;
 }
 
-.navbar {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
-.navbar a {
-  margin-left: 20px;
+.navBar a {
+  padding: 20px;
+  font-size: 20px;
 }
 
 .headliner {
-  margin-bottom: 10px;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.impLinks {
+  grid-column: 2/3;
+  grid-row: 4/5;
 }
 
 .TopImportantLinks {
+  display: flex;
+  justify-self: center;
   max-width: 500px;
   max-height: 500px;
   margin: 0 auto;
   margin-top: 6vh;
-  border: 1px solid #bacdd8;
+  border: 2px solid #bacdd8;
   border-radius: 25px;
   padding: 8px;
 }
+
 .links-container {
   margin: 10px 10px 10px 10px;
-  background-color: aqua;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  /* background-color: aqua; */
 }
 
 .linksList {

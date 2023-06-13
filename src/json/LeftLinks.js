@@ -20,6 +20,11 @@ const links = [
     link: "https://thenationalpulse.com/2023/06/12/trump-urges-miami-indictment-protesters-to-stay-peaceful/",
     id: 4,
   },
+  {
+    title: "Alleged Biden Briber Is Reportedly a Russian Intel Asset.",
+    link: "https://townhall.com/tipsheet/spencerbrown/2023/06/13/alleged-biden-briber-is-reportedly-a-russian-intel-asset-n2624421",
+    id: 5,
+  },
 ];
 
 export default links;
