@@ -24,16 +24,13 @@ li {
 }
 
 /* Nav Bar */
-.navBar {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  display: grid;
-  justify-content: center;
-}
-
-.navBar a {
-  padding: 20px;
+.nav-links {
   font-size: 20px;
+  padding-top: 20px;
+  padding-right: ;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .headliner {

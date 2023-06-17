@@ -1,35 +1,21 @@
-import TopPage from "./TopPage";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavBar from "./NavBar";
-import Headliner from "./headliner";
-import MiddleInfo from "./MiddleInfo";
-import LeftInfo from "./LeftInfo";
-import RightInfo from "./RightInfo";
+import Home from "./Home";
+import About from "./About";
 
 function App() {
   return (
-    <div className="App">
-      <div className="container1">
-        <div className="navBar">
+    <Router>
+      <div className="App">
+        <div className="content">
           <NavBar />
-        </div>
-        <div className="main-logo">
-          <TopPage />
-        </div>
-        <div className="headliner">
-          <Headliner />
-        </div>
-        <div className="impLinks">
-          {/* <TopImportantLinks /> */}
-          <MiddleInfo />
-        </div>
-        <div className="leftInfo">
-          <LeftInfo />
-        </div>
-        <div className="rightInfo">
-          <RightInfo />
+          <Routes>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/About" element={<About />}></Route>
+          </Routes>
         </div>
       </div>
-    </div>
+    </Router>
   );
 }
 
